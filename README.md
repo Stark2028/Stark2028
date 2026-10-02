@@ -46,8 +46,7 @@
 <div align="center">
   <a href="https://gist.github.com/Stark2028/7f8239620a4f3c154c388d1b71e3af4a"><img src="https://img.shields.io/badge/%E2%9C%8D%EF%B8%8F_Sign_my_guestbook-F5B700?style=for-the-badge&logo=githubsponsors&logoColor=9B111E" alt="Sign my guestbook"/></a>
   <br/><br/>
-  <img src="https://count.getloli.com/@Stark2028?name=Stark2028&theme=nixietube-1&padding=6&scale=0.55" alt="Visitor counter"/>
-  <br/><sub>👀 visitors since this page went live</sub>
+  <img src="https://komarev.com/ghpvc/?username=Stark2028&label=%F0%9F%91%80%20Profile%20views&color=F5B700&style=for-the-badge&abbreviated=true" alt="Profile views"/>
 </div>
 
 <img src="assets/divider.svg" width="100%" alt=""/>
