@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="18" viewBox="0 0 1000 18" role="img" aria-label="divider">
+  <defs>
+    <linearGradient id="base" x1="0" x2="1">
+      <stop offset="0" stop-color="#E23636" stop-opacity="0"/>
+      <stop offset="0.18" stop-color="#E23636"/>
+      <stop offset="0.5" stop-color="#F5B700"/>
+      <stop offset="0.82" stop-color="#E23636"/>
+      <stop offset="1" stop-color="#E23636" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#5CE1E6" stop-opacity="0.9"/>
+      <stop offset="1" stop-color="#5CE1E6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="bar"><rect x="0" y="7" width="1000" height="4" rx="2"/></clipPath>
+  </defs>
+  <rect x="0" y="7" width="1000" height="4" rx="2" fill="url(#base)"/>
+  <g clip-path="url(#bar)">
+    <rect x="-220" y="0" width="220" height="18" fill="url(#shine)">
+      <animate attributeName="x" from="-220" to="1000" dur="3.2s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+  <circle cx="500" cy="9" r="9" fill="url(#glow)">
+    <animate attributeName="r" values="6;9;6" dur="2.4s" repeatCount="indefinite"/>
+  </circle>
+  <rect x="495" y="4" width="10" height="10" fill="#0D1117" stroke="#F5B700" stroke-width="2" transform="rotate(45 500 9)"/>
+  <circle cx="500" cy="9" r="2" fill="#5CE1E6"/>
+</svg>

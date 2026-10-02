@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="450" viewBox="0 0 900 450" role="img" aria-labelledby="t d">
+  <title id="t">sameer@stark2028 — neofetch</title>
+  <desc id="d">A terminal running neofetch: B.Tech IT at IIIT Allahabad, based in Prayagraj; TypeScript, Python and C++; React, Next.js, Node.js and FastAPI; AWS, Firebase and Vercel; building OffGrid, offline-first emergency navigation; CodeChef peak 1771.</desc>
+  <defs>
+    <radialGradient id="arc">
+      <stop offset="0" stop-color="#5CE1E6" stop-opacity=".95"/>
+      <stop offset=".55" stop-color="#5CE1E6" stop-opacity=".35"/>
+      <stop offset="1" stop-color="#5CE1E6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="halo">
+      <stop offset=".6" stop-color="#E23636" stop-opacity="0"/>
+      <stop offset=".9" stop-color="#E23636" stop-opacity=".10"/>
+      <stop offset="1" stop-color="#E23636" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#E23636"/>
+      <stop offset="1" stop-color="#F5B700"/>
+    </linearGradient>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace; font-size: 15px; }
+    .key { fill: #F5B700; font-weight: 700; }
+    .val { fill: #E6EDF3; }
+    .dim { fill: #8B949E; }
+    .fade, .row { opacity: 0; animation: in .5s ease-out forwards; }
+    .row { animation-name: slide; }
+    @keyframes in { to { opacity: 1; } }
+    @keyframes slide { from { opacity: 0; transform: translateX(-10px); } to { opacity: 1; transform: none; } }
+  </style>
+
+  <rect x="1" y="1" width="898" height="448" rx="14" fill="#0D1117" stroke="#30363D" stroke-width="1.5"/>
+  <path d="M1 15 a14 14 0 0 1 14 -14 H885 a14 14 0 0 1 14 14 V38 H1 Z" fill="#161B22"/>
+  <rect x="1" y="38" width="898" height="2" fill="url(#edge)"/>
+  <circle cx="24" cy="20" r="6.5" fill="#FF5F56"/>
+  <circle cx="45" cy="20" r="6.5" fill="#FFBD2E"/>
+  <circle cx="66" cy="20" r="6.5" fill="#27C93F"/>
+  <text x="450" y="25" fill="#8B949E" font-size="13" text-anchor="middle">sameer@stark2028: ~</text>
+
+  <text x="24" y="70" xml:space="preserve"><tspan fill="#E23636" font-weight="700">sameer@stark2028</tspan><tspan fill="#E6EDF3">:</tspan><tspan fill="#F5B700">~</tspan><tspan fill="#E6EDF3">$ </tspan><tspan fill="#E6EDF3"><tspan visibility="hidden">n<set attributeName="visibility" to="visible" begin="0.35s" fill="freeze"/></tspan><tspan visibility="hidden">e<set attributeName="visibility" to="visible" begin="0.45s" fill="freeze"/></tspan><tspan visibility="hidden">o<set attributeName="visibility" to="visible" begin="0.55s" fill="freeze"/></tspan><tspan visibility="hidden">f<set attributeName="visibility" to="visible" begin="0.65s" fill="freeze"/></tspan><tspan visibility="hidden">e<set attributeName="visibility" to="visible" begin="0.75s" fill="freeze"/></tspan><tspan visibility="hidden">t<set attributeName="visibility" to="visible" begin="0.85s" fill="freeze"/></tspan><tspan visibility="hidden">c<set attributeName="visibility" to="visible" begin="0.95s" fill="freeze"/></tspan><tspan visibility="hidden">h<set attributeName="visibility" to="visible" begin="1.05s" fill="freeze"/></tspan></tspan></text>
+
+  
+  <g class="fade" style="animation-delay:.9s" transform="translate(160 268)">
+    <circle r="112" fill="url(#halo)"/>
+    <circle r="104" fill="none" stroke="#30363D" stroke-width="1.5"/>
+    <g>
+      <circle r="98" fill="none" stroke="#E23636" stroke-width="2" stroke-dasharray="3 7" opacity=".8"/>
+      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite"/>
+    </g>
+    <line x1="0" y1="-84" x2="0" y2="-93" stroke="#F5B700" stroke-width="2" transform="rotate(0)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(5)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(10)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(15)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(20)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(25)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(30)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(35)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(40)"/><line x1="0" y1="-84" x2="0" y2="-93" stroke="#F5B700" stroke-width="2" transform="rotate(45)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(50)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(55)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(60)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(65)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(70)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(75)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(80)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(85)"/><line x1="0" y1="-84" x2="0" y2="-93" stroke="#F5B700" stroke-width="2" transform="rotate(90)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(95)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(100)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(105)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(110)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(115)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(120)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(125)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(130)"/><line x1="0" y1="-84" x2="0" y2="-93" stroke="#F5B700" stroke-width="2" transform="rotate(135)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(140)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(145)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(150)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(155)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(160)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(165)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(170)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(175)"/><line x1="0" y1="-84" x2="0" y2="-93" stroke="#F5B700" stroke-width="2" transform="rotate(180)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(185)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(190)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(195)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(200)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(205)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(210)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(215)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(220)"/><line x1="0" y1="-84" x2="0" y2="-93" stroke="#F5B700" stroke-width="2" transform="rotate(225)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(230)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(235)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(240)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(245)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(250)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(255)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(260)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(265)"/><line x1="0" y1="-84" x2="0" y2="-93" stroke="#F5B700" stroke-width="2" transform="rotate(270)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(275)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(280)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(285)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(290)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(295)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(300)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(305)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(310)"/><line x1="0" y1="-84" x2="0" y2="-93" stroke="#F5B700" stroke-width="2" transform="rotate(315)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(320)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(325)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(330)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(335)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(340)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(345)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(350)"/><line x1="0" y1="-88" x2="0" y2="-93" stroke="#30363D" stroke-width="1" transform="rotate(355)"/>
+    <g>
+      
+      <g transform="rotate(45)">
+        <polygon points="0,-52 7,0 0,0" fill="#FFD866"/>
+        <polygon points="0,-52 -7,0 0,0" fill="#B38600"/>
+      </g>
+      <g transform="rotate(135)">
+        <polygon points="0,-52 7,0 0,0" fill="#FFD866"/>
+        <polygon points="0,-52 -7,0 0,0" fill="#B38600"/>
+      </g>
+      <g transform="rotate(225)">
+        <polygon points="0,-52 7,0 0,0" fill="#FFD866"/>
+        <polygon points="0,-52 -7,0 0,0" fill="#B38600"/>
+      </g>
+      <g transform="rotate(315)">
+        <polygon points="0,-52 7,0 0,0" fill="#FFD866"/>
+        <polygon points="0,-52 -7,0 0,0" fill="#B38600"/>
+      </g>
+      
+      <g transform="rotate(90)">
+        <polygon points="0,-78 10,0 0,0" fill="#F5B700"/>
+        <polygon points="0,-78 -10,0 0,0" fill="#9E7600"/>
+      </g>
+      <g transform="rotate(180)">
+        <polygon points="0,-78 10,0 0,0" fill="#F5B700"/>
+        <polygon points="0,-78 -10,0 0,0" fill="#9E7600"/>
+      </g>
+      <g transform="rotate(270)">
+        <polygon points="0,-78 10,0 0,0" fill="#F5B700"/>
+        <polygon points="0,-78 -10,0 0,0" fill="#9E7600"/>
+      </g>
+      
+      <g transform="rotate(0)">
+        <polygon points="0,-80 10,0 0,0" fill="#E23636"/>
+        <polygon points="0,-80 -10,0 0,0" fill="#9B111E"/>
+      </g>
+      <animateTransform attributeName="transform" type="rotate" values="0;-18;12;-7;3;0" keyTimes="0;.25;.5;.7;.85;1" dur="2.6s" begin="1.1s" fill="freeze"/>
+    </g>
+    <circle r="22" fill="url(#arc)">
+      <animate attributeName="r" values="18;24;18" dur="2.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="12" fill="#0D1117" stroke="#5CE1E6" stroke-width="2.5"/>
+    <circle r="5" fill="#E6FFFF"/>
+    <text x="0" y="-120" fill="#E23636" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" font-weight="700" text-anchor="middle" dominant-baseline="central">N</text>
+    <text x="120" y="0" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" font-weight="700" text-anchor="middle" dominant-baseline="central">E</text>
+    <text x="0" y="120" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" font-weight="700" text-anchor="middle" dominant-baseline="central">S</text>
+    <text x="-120" y="0" fill="#8B949E" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" font-weight="700" text-anchor="middle" dominant-baseline="central">W</text>
+  </g>
+
+  <g class="fade" style="animation-delay:1.3s">
+    <text x="318" y="112" font-size="17"><tspan fill="#E23636" font-weight="700">sameer</tspan><tspan fill="#E6EDF3">@</tspan><tspan fill="#F5B700" font-weight="700">stark2028</tspan></text>
+    <rect x="318" y="122" width="190" height="2" rx="1" fill="url(#edge)"/>
+  </g>
+  
+    <g class="row" style="animation-delay:1.50s">
+      <text x="318" y="156" class="key">OS</text>
+      <text x="418" y="156" class="val">B.Tech IT<tspan class="dim"> · IIIT Allahabad (final year)</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:1.63s">
+      <text x="318" y="179" class="key">Host</text>
+      <text x="418" y="179" class="val">Prayagraj, India<tspan class="dim"></tspan></text>
+    </g>
+    <g class="row" style="animation-delay:1.76s">
+      <text x="318" y="202" class="key">Kernel</text>
+      <text x="418" y="202" class="val">TypeScript · Python · C++<tspan class="dim"> · SQL</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:1.89s">
+      <text x="318" y="225" class="key">Shell</text>
+      <text x="418" y="225" class="val">React · Next.js · Node.js<tspan class="dim"> · FastAPI</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:2.02s">
+      <text x="318" y="248" class="key">Cloud</text>
+      <text x="418" y="248" class="val">AWS · Firebase · Vercel<tspan class="dim"> · PostgreSQL</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:2.15s">
+      <text x="318" y="271" class="key">Uptime</text>
+      <text x="418" y="271" class="val">shipping code since 2023<tspan class="dim"></tspan></text>
+    </g>
+    <g class="row" style="animation-delay:2.28s">
+      <text x="318" y="294" class="key">Last job</text>
+      <text x="418" y="294" class="val">SDE Intern<tspan class="dim"> @ Aplus Technology Solutions</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:2.41s">
+      <text x="318" y="317" class="key">Process</text>
+      <text x="418" y="317" class="val">OffGrid<tspan class="dim"> — offline-first emergency navigation</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:2.54s">
+      <text x="318" y="340" class="key">Rank</text>
+      <text x="418" y="340" class="val">CodeChef 1771 peak<tspan class="dim"> · Global #17, Starters 235</tspan></text>
+    </g>
+    <g class="row" style="animation-delay:2.67s">
+      <text x="318" y="363" class="key">Motto</text>
+      <text x="418" y="363" class="val">instrument before theorising<tspan class="dim"></tspan></text>
+    </g>
+  <g class="fade" style="animation-delay:2.80s"><rect x="318" y="380" width="26" height="16" rx="3" fill="#E23636"/><rect x="348" y="380" width="26" height="16" rx="3" fill="#9B111E"/><rect x="378" y="380" width="26" height="16" rx="3" fill="#E8590C"/><rect x="408" y="380" width="26" height="16" rx="3" fill="#F5B700"/><rect x="438" y="380" width="26" height="16" rx="3" fill="#FFD866"/><rect x="468" y="380" width="26" height="16" rx="3" fill="#5CE1E6"/><rect x="498" y="380" width="26" height="16" rx="3" fill="#2F81F7"/><rect x="528" y="380" width="26" height="16" rx="3" fill="#E6EDF3"/></g>
+
+  <g class="fade" style="animation-delay:3.10s">
+    <text x="318" y="428" xml:space="preserve"><tspan fill="#E23636" font-weight="700">sameer@stark2028</tspan><tspan fill="#E6EDF3">:</tspan><tspan fill="#F5B700">~</tspan><tspan fill="#E6EDF3">$ </tspan><tspan fill="#5CE1E6">█<animate attributeName="fill-opacity" values="1;0" dur="1.1s" calcMode="discrete" repeatCount="indefinite"/></tspan></text>
+  </g>
+</svg>

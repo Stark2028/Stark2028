@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="440" height="250" viewBox="0 0 440 250" role="img" aria-labelledby="t d">
+  <title id="t">OffGrid — Emergency navigation with zero internet.</title>
+  <desc id="d">On-device bidirectional A* over a road graph compiled from OpenStreetMap. Runs in airplane mode on Android. no backend, fuzzed vs Dijkstra oracle. Built with TypeScript, Python, React, Capacitor, MapLibre.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#161B22"/>
+      <stop offset="1" stop-color="#0D1117"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="0" x2="1">
+      <stop offset="0" stop-color="#E23636"/>
+      <stop offset="1" stop-color="#F5B700"/>
+    </linearGradient>
+    <linearGradient id="shine" x1="0" x2="1">
+      <stop offset="0" stop-color="#fff" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#fff" stop-opacity="0.85"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <clipPath id="card"><rect x="1" y="1" width="438" height="248" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .title { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; font-size: 22px; font-weight: 700; fill: #E6EDF3; }
+    .tag { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; font-size: 14px; font-weight: 600; fill: #C9D1D9; }
+    .desc { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif; font-size: 13px; fill: #8B949E; }
+    .pulse { animation: pulse 1.6s ease-in-out infinite; }
+    @keyframes pulse { 50% { opacity: .25; } }
+  </style>
+
+  <rect x="1" y="1" width="438" height="248" rx="14" fill="url(#bg)" stroke="#30363D" stroke-width="1.5"/>
+  <g clip-path="url(#card)">
+    <rect x="0" y="0" width="440" height="4" fill="url(#edge)"/>
+    <rect x="-140" y="0" width="140" height="4" fill="url(#shine)">
+      <animate attributeName="x" from="-140" to="440" dur="3.5s" repeatCount="indefinite"/>
+    </rect>
+    <text x="428" y="272" fill="#E6EDF3" opacity=".04" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="120" font-weight="800" text-anchor="end">01</text>
+  </g>
+
+  <text x="24" y="50" fill="#F5B700" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="15" font-weight="700">01</text>
+  <rect x="48" y="37" width="2" height="18" fill="#E23636"/>
+  <text x="60" y="53" class="title">OffGrid</text>
+
+  <rect x="333" y="33" width="85" height="24" rx="12" fill="#0D1117" stroke="#F5B700" stroke-opacity=".55" stroke-width="1.2"/>
+  <circle class="pulse" cx="346" cy="45" r="4" fill="#F5B700"/>
+  <text x="356" y="45.5" fill="#F5B700" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" font-weight="700" dominant-baseline="central">BUILDING</text>
+
+  <text x="24" y="86" class="tag">Emergency navigation with zero internet.</text>
+  <text x="24" y="112" class="desc">On-device bidirectional A* over a road graph compiled</text>
+  <text x="24" y="130" class="desc">from OpenStreetMap. Runs in airplane mode on Android.</text>
+
+  <rect x="24" y="150" width="90" height="24" rx="12" fill="none" stroke="#E23636" stroke-width="1.2"/>
+    <text x="69" y="162.5" fill="#F5B700" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" text-anchor="middle" dominant-baseline="central">no backend</text>
+    <rect x="121" y="150" width="198" height="24" rx="12" fill="none" stroke="#E23636" stroke-width="1.2"/>
+    <text x="220" y="162.5" fill="#F5B700" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" text-anchor="middle" dominant-baseline="central">fuzzed vs Dijkstra oracle</text>
+
+  <line x1="24" y1="194" x2="416" y2="194" stroke="#30363D" stroke-dasharray="2 4"/>
+    <rect x="24" y="206" width="84" height="23" rx="11.5" fill="#21262D"/>
+    <text x="66" y="218" fill="#C9D1D9" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" text-anchor="middle" dominant-baseline="central">TypeScript</text>
+    <rect x="114" y="206" width="58" height="23" rx="11.5" fill="#21262D"/>
+    <text x="143" y="218" fill="#C9D1D9" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" text-anchor="middle" dominant-baseline="central">Python</text>
+    <rect x="178" y="206" width="51" height="23" rx="11.5" fill="#21262D"/>
+    <text x="203.5" y="218" fill="#C9D1D9" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" text-anchor="middle" dominant-baseline="central">React</text>
+    <rect x="235" y="206" width="78" height="23" rx="11.5" fill="#21262D"/>
+    <text x="274" y="218" fill="#C9D1D9" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" text-anchor="middle" dominant-baseline="central">Capacitor</text>
+    <rect x="319" y="206" width="71" height="23" rx="11.5" fill="#21262D"/>
+    <text x="354.5" y="218" fill="#C9D1D9" font-family="ui-monospace, SFMono-Regular, 'JetBrains Mono', 'Cascadia Code', 'Fira Code', Consolas, 'Liberation Mono', Menlo, monospace" font-size="11" text-anchor="middle" dominant-baseline="central">MapLibre</text>
+</svg>
