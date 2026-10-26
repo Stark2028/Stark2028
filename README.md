@@ -39,7 +39,7 @@
 - 💼 Ex-**SDE Intern** at Aplus Technology Solutions: shipped **2 production web apps** end-to-end (Next.js + FastAPI), both live on Vercel
 - 🛰️ Building **[OffGrid](https://github.com/Stark2028/offgrid-emergency-nav)**: navigation that keeps routing when the internet is gone. On-device A\*, no backend
 - 🔬 Research fellow on a **security audit framework for IoT networks**, sponsored by C3iHub, IIT Kanpur
-- ⚔️ Competitive programmer: CodeChef peak **1771**, **Global Rank 17** in Starters 235
+- ⚔️ Competitive programmer: CodeChef peak **1848**, **Global Rank 17** in Starters 235
 - 🧪 I treat tests as part of the product: **4,100+** on one codebase, **367** on another
 - 🏸 Off-screen: **gold** at the All India Inter-IIIT badminton tournament
 
