@@ -134,11 +134,11 @@
       <a href="https://leetcode.com/u/Prasad_Sameer/"><img src="https://leetcard.jacoblin.cool/Prasad_Sameer?theme=dark&font=JetBrains%20Mono&ext=heatmap&border=0&radius=12" width="100%" alt="LeetCode stats for Prasad_Sameer"/></a>
     </td>
     <td align="center" width="45%">
-      <a href="https://www.codechef.com/users/prasad_sameer"><img src="https://img.shields.io/badge/CodeChef-Peak_1771-E23636?style=for-the-badge&logo=codechef&logoColor=white&labelColor=5B4638" alt="CodeChef peak rating 1771"/></a>
+      <a href="https://www.codechef.com/users/prasad_sameer"><img src="https://img.shields.io/badge/CodeChef-Peak_1771-E23636?style=for-the-badge&logo=codechef&logoColor=white&labelColor=5B4638" alt="CodeChef peak rating 1848"/></a>
       <br/><br/>
       <img src="https://img.shields.io/badge/Starters_235-Global_Rank_17-F5B700?style=for-the-badge&labelColor=161B22" alt="CodeChef Starters 235, global rank 17"/>
       <br/><br/>
-      <img src="https://img.shields.io/badge/DSA-300%2B_solved-5CE1E6?style=for-the-badge&labelColor=161B22" alt="300+ DSA problems solved"/>
+      <img src="https://img.shields.io/badge/DSA-300%2B_solved-5CE1E6?style=for-the-badge&labelColor=161B22" alt="500+ DSA problems solved"/>
       <br/><br/>
       <a href="https://www.geeksforgeeks.org/profile/prasadsameer"><img src="https://img.shields.io/badge/GeeksforGeeks-prasadsameer-2F8D46?style=for-the-badge&logo=geeksforgeeks&logoColor=white&labelColor=161B22" alt="GeeksforGeeks profile"/></a>
     </td>
